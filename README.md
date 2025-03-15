@@ -125,7 +125,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 3.3.In the AWS Management Console, head to the CloudWatch dashboard and verify that there is Alarm running as show below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/c54ea48ff1dd7de863cf7fe9381e3e7341363432/screenshots/Screenshot%202025-03-15%20190611.png)
 
 3.4.In the AWS Management Console, head to the Amazon SNS dashboard and verify that there is Topic running as show below
 
