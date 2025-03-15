@@ -1,13 +1,10 @@
-# Terraform state files
+# Terraform state and backup files
 *.tfstate
 *.tfstate.backup
 
 # Terraform configuration variables (often contain secrets)
 *.tfvars
 *.tfvars.json
-
-# Terraform crash logs
-crash.log
 
 # Terraform provider-specific directories and lock files
 .terraform/
