@@ -164,7 +164,7 @@ It will trigger the CloudWatch alarm once CPU utilization crosses 80%.
 
 4.4.Check SNS Notification:You should receive an email/SMS alert.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/4b3e346dfc217b0922376923e3f8035ec66b6fb0/screenshots/Screenshot%202025-03-15%20194052.png)
 
 
 4.5.Verify Auto-Remediation:Check AWS Lambda Logs in CloudWatch to confirm instance restart.
