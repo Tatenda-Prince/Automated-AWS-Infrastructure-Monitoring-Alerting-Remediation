@@ -155,7 +155,7 @@ This command will consume 100% CPU for 5 minutes (300 seconds).
 
 It will trigger the CloudWatch alarm once CPU utilization crosses 80%.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/7d097b89886abeb7087ef6ea1be126ad8069a25e/screenshots/Screenshot%202025-03-15%20193631.png)
 
 4.3.Monitor CloudWatch Metrics:Check CloudWatch `CPUUtilization` metrics.Check if the status went `OK` to `ALARM`
 
