@@ -121,7 +121,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 3.2.In the AWS Management Console, head to the Lambda Console and verify that there is lambda function running as show below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/c33ce278bf8ce98662cb2b5380cc3a2e0bc9a0c8/screenshots/Screenshot%202025-03-15%20190559.png)
 
 3.3.In the AWS Management Console, head to the CloudWatch dashboard and verify that there is Alarm running as show below
 
