@@ -86,7 +86,7 @@ terraform validate
 
 The command should generate a success message, confirming that it is valid, as demonstrated below.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/0fe0f56d464306673cb8968b219d11fa13398abc/screenshots/Screenshot%202025-03-15%20184726.png)
 
 2.4.Let’s now execute the following command to generate a list of all the modifications that Terraform will apply.
 
