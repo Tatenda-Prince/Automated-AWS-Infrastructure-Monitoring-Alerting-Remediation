@@ -105,7 +105,7 @@ terraform apply
 
 Terraform will initiate the process of applying all the changes to the infrastructure. Kindly wait for a few seconds for the deployment process to complete.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/2d718860405d0999ff31ad822b7be93955075f7f/screenshots/Screenshot%202025-03-15%20190138.png)
 
 
 ## Success
