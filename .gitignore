@@ -1,12 +1,8 @@
-# Terraform state and backup files
+# Ignore Terraform state files and backups
 *.tfstate
 *.tfstate.backup
 
-# Terraform configuration variables (often contain secrets)
-*.tfvars
-*.tfvars.json
-
-# Terraform provider-specific directories and lock files
+# Ignore Terraform provider binaries and caches
 .terraform/
 .terraform.lock.hcl
 
@@ -16,14 +12,14 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
-# Ignore ZIP files for AWS Lambda
+# Ignore AWS Lambda deployment ZIP files
 *.zip
 
 # Ignore editor/IDE-specific files
-.vscode/   # VSCode settings
-.idea/     # JetBrains IDEs (e.g., IntelliJ, PyCharm)
-*.iml      # IntelliJ project files
+.vscode/
+.idea/
+*.iml
 
-# Ignore OS-specific system files
-.DS_Store   # macOS system file
-Thumbs.db   # Windows system file
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
