@@ -169,7 +169,7 @@ It will trigger the CloudWatch alarm once CPU utilization crosses 80%.
 
 4.5.Verify Auto-Remediation:Check AWS Lambda Logs in CloudWatch to confirm instance restart.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/e672dce699f5bc100d9579edcd7c1671bb3fb13e/screenshots/Screenshot%202025-03-15%20194151.png)
 
 
 ## Future Enhancements
