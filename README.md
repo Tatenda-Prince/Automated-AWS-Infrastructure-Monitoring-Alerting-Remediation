@@ -157,10 +157,6 @@ It will trigger the CloudWatch alarm once CPU utilization crosses 80%.
 
 ![image_alt]()
 
-
-![image_alt]()
-
-
 4.3.Monitor CloudWatch Metrics:Check CloudWatch `CPUUtilization` metrics.Check if the status went `OK` to `ALARM`
 
 ![image_alt]()
