@@ -1,6 +1,6 @@
 # AWS Infrastructure Monitoring, Alerting & Remediation using Terraform
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/8343c71d87db91579b63db9cd669d8715ba41a90/screenshots/Screenshot%202025-03-15%20204905.png)
 
 
 ## Project Overview
