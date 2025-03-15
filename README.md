@@ -138,17 +138,17 @@ The process should now conclude with a message indicating “Apply complete”, 
 4.2.Connect to the EC2 instance via SSH (replace `<your-public-ip>`):
 Run the following commands
 
-1.```language
+```language
 ssh -i your-key.pem ec2-user@<your-public-ip>
 ```
 
 
-2.```language
+```language
 sudo yum update -y
 sudo yum install -y epel-release
 sudo yum install -y stress
 ```
-3.```language
+```language
 tress --cpu 4 --timeout 300
 ```
 This command will consume 100% CPU for 5 minutes (300 seconds).
