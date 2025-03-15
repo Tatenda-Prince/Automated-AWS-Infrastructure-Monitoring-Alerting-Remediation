@@ -129,7 +129,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 3.4.In the AWS Management Console, head to the Amazon SNS dashboard and verify that there is Topic running as show below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/9239c0a7f5fa3b3bcc51f2f86938760c2d03f76c/screenshots/Screenshot%202025-03-15%20190655.png)
 
 
 ## Step 4: Testing the System
