@@ -117,7 +117,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 ## Step 3: Verify creation of our resources
 3.1.In the AWS Management Console, head to the EC2 Instance Console and verify that there is instance running as show below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/8f58b646b9fbbb8e24723623e3e61f58796db55b/screenshots/Screenshot%202025-03-15%20190544.png)
 
 3.2.In the AWS Management Console, head to the Lambda Console and verify that there is lambda function running as show below
 
