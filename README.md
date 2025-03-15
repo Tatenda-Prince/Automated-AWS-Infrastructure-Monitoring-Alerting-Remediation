@@ -52,7 +52,166 @@ Before running this project, ensure you have the following:
 
 
 
-## Step 1: Clone the Repositorys
+## Step 1: Clone the Repository
+1.1.Clone this repository to your local machine.
+
+```language
+git clone https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation.git
+```
+
+## Step 2 : Run Terraform workflow to initialize, validate, plan then apply
+2.1.Terraform will provision:
+1.EC2 with 
+2.CloudWatch Alarm
+3.SNS Topic
+4.Lambda
+
+2.2.In your local terraform visual code environment terminal, to initialize the necessary providers, execute the following command in your environment terminal.
+
+```language
+terraform init
+```
+
+Upon completion of the initialization process, a successful prompt will be displayed, as shown below.
+
+![image_alt]()
+
+
+2.3.Next, let’s ensure that our code does not contain any syntax errors by running the following command
+
+
+```language
+terraform validate
+```
+
+The command should generate a success message, confirming that it is valid, as demonstrated below.
+
+![image_alt]()
+
+2.4.Let’s now execute the following command to generate a list of all the modifications that Terraform will apply.
+
+```language
+terraform plan
+```
+![image_alt]()
+
+The list of changes that Terraform is anticipated to apply to the infrastructure resources should be displayed. The “+” sign indicates what will be added, while the “-” sign indicates what will be removed.
+
+2.5.Now, let’s deploy this infrastructure! Execute the following command to apply the changes and deploy the resources. Note — Make sure to type “yes” to agree to the changes after running this command.
+
+```language
+terraform apply
+```
+
+Terraform will initiate the process of applying all the changes to the infrastructure. Kindly wait for a few seconds for the deployment process to complete.
+
+![image_alt]()
+
+
+## Success
+The process should now conclude with a message indicating “Apply complete”, stating the total number of added, modified, and destroyed resources, accompanied by several resources. 
+
+![image_alt]()
+
+
+## Step 3: Verify creation of our resources
+3.1.In the AWS Management Console, head to the EC2 Instance Console and verify that there is instance running as show below
+
+![image_alt]()
+
+3.2.In the AWS Management Console, head to the Lambda Console and verify that there is lambda function running as show below
+
+![image_alt]()
+
+3.3.In the AWS Management Console, head to the CloudWatch dashboard and verify that there is Alarm running as show below
+
+![image_alt]()
+
+3.4.In the AWS Management Console, head to the Amazon SNS dashboard and verify that there is Topic running as show below
+
+![image_alt]()
+
+
+## Step 4: Testing the System
+4.1.Once deployed, test the system by triggering a high CPU utilization alert:
+
+4.2.Connect to the EC2 instance via SSH (replace `<your-public-ip>`):
+Run the following commands
+
+1.```language
+ssh -i your-key.pem ec2-user@<your-public-ip>
+```
+
+
+2.```language
+sudo yum update -y
+sudo yum install -y epel-release
+sudo yum install -y stress
+```
+3.```language
+tress --cpu 4 --timeout 300
+```
+This command will consume 100% CPU for 5 minutes (300 seconds).
+
+It will trigger the CloudWatch alarm once CPU utilization crosses 80%.
+
+![image_alt]()
+
+
+4.3.Monitor CloudWatch Metrics:Check CloudWatch `CPUUtilization` metrics.Check if the status went `OK` to `ALARM`
+
+![image_alt]()
+
+
+4.4.Check SNS Notification:You should receive an email/SMS alert.
+
+![image_alt]()
+
+
+4.5.Verify Auto-Remediation:Check AWS Lambda Logs in CloudWatch to confirm instance restart.
+
+![image_alt]()
+
+
+## Future Enhancements
+1.Extend monitoring to Memory and Disk usage.
+
+2.Integrate AWS Systems Manager for in-depth diagnostics.
+
+3.Implement Auto-Scaling for better fault tolerance.
+
+4.Add a Slack/Teams webhook for real-time alerts.
+
+## What We Learned
+1.Terraform best practices for AWS infrastructure automation.
+
+2.Proactive monitoring and alerting using AWS CloudWatch.
+
+3.Automating issue resolution using AWS Lambda.
+
+4.Importance of IAM roles in managing AWS security.
+
+5.Real-world DevOps implementation that improves system reliability.
+
+## Congratulations
+We have succesfully created AWS Infrastructure Monitoring, Alerting & Remediation using Terraform by automating monitoring, alerting, and remediation of EC2 instances using AWS and Terraform. It ensures high availability, reducing downtime and manual intervention.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
