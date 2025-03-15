@@ -159,7 +159,7 @@ It will trigger the CloudWatch alarm once CPU utilization crosses 80%.
 
 4.3.Monitor CloudWatch Metrics:Check CloudWatch `CPUUtilization` metrics.Check if the status went `OK` to `ALARM`
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/e80cc3c339fab83341e9562270ad6bc08dd9a57d/screenshots/Screenshot%202025-03-15%20193939.png)
 
 
 4.4.Check SNS Notification:You should receive an email/SMS alert.
