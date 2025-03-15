@@ -111,7 +111,7 @@ Terraform will initiate the process of applying all the changes to the infrastru
 ## Success
 The process should now conclude with a message indicating “Apply complete”, stating the total number of added, modified, and destroyed resources, accompanied by several resources. 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/8009a927c0dd7fd9684ac0156169a59e7d8e2774/screenshots/Screenshot%202025-03-15%20190230.png)
 
 
 ## Step 3: Verify creation of our resources
