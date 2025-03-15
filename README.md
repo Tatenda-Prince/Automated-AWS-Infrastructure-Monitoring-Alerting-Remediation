@@ -74,7 +74,7 @@ terraform init
 
 Upon completion of the initialization process, a successful prompt will be displayed, as shown below.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-AWS-Infrastructure-Monitoring-Alerting-Remediation/blob/4a0d34332336fb1b19a554ae42ce686006c3e037/screenshots/Screenshot%202025-03-15%20184358.png)
 
 
 2.3.Next, let’s ensure that our code does not contain any syntax errors by running the following command
