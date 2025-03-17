@@ -8,8 +8,11 @@ This project automates the monitoring, alerting, and remediation of AWS EC2 inst
 
 ## Project Objective
 1.Automate AWS infrastructure monitoring and alerting.
+
 2.Send notifications when critical thresholds are breached.
+
 3.Implement an auto-remediation mechanism using AWS Lambda.
+
 4.Demonstrate Terraform’s capability in managing AWS resources efficiently.
 
 ## Features
